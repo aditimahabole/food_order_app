@@ -18,7 +18,11 @@
 </ul>
 <hr>
 <p> We created two routes AdminRoute and VandorRoute in routes Folder </p>
-<p> Then we moved to contollers Folder to control AdminRoute and inside AdminControll.ts we created three functions that are <strong> CreateVandor , GetVandor , GetVandorbyID</strong></p>
+<p> Then we moved to contollers Folder to control AdminRoute and inside AdminControll.ts we created three functions that are <strong> 
+  CreateVandor : for posting data
+  GetVandor : for getting all vandors 
+  GetVandorbyID : getting vandor by ID 
+</strong></p>
 <hr>
 <p>Then in AdminRoute.ts we created routes</p>
 <ul>
