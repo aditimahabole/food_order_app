@@ -2,6 +2,9 @@
 
 <hr>
 <p> git clone empty repo -> cd foldername -> npm init -> (package.json is made ) </p>
+<p> tsc --init (to have tsconfig file) </p>
+<p> created index.ts in Main folder</p>
+<p> dont forget to add scripts to package.json file for index.ts</p>
 <hr>
 <h4> Created Directories</h4>
 <ul>
@@ -17,10 +20,17 @@
 <li>config</li>
 </ul>
 <hr>
-<p> We created two routes AdminRoute and VandorRoute in routes Folder </p>
-<p> Then we moved to contollers Folder to control AdminRoute and inside AdminControll.ts we created three functions that are <strong> CreateVandor , GetVandor , GetVandorbyID</strong></p>
+<h4> We created two routes AdminRoute and VandorRoute in routes Folder </h4>
+<p> Then we moved to contollers Folder to control AdminRoute and inside AdminControll.ts we created three functions that are
+  <br>
+  <strong> 
+  CreateVandor : for posting data</strong><br>
+  <strong> GetVandor : for getting all vandors </strong><br>
+ <strong>  GetVandorbyID : getting vandor by ID </strong>
+  <br>
+</p>
 <hr>
-<p>Then in AdminRoute.ts we created routes</p>
+<h4>Then in AdminRoute.ts we created routes</h4>
 <ul>
 <li>router.post('/vandor',CreateVandor)</li>
 <li>router.post('/vandors',GetVandor )</li>
