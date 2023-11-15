@@ -17,7 +17,7 @@
 <li>config</li>
 </ul>
 <hr>
-<p> We created two routes AdminRoute and VandorRoute in routes Folder </p>
+<h4> We created two routes AdminRoute and VandorRoute in routes Folder </h4>
 <p> Then we moved to contollers Folder to control AdminRoute and inside AdminControll.ts we created three functions that are
   <br>
   <strong> 
@@ -27,7 +27,7 @@
   <br>
 </p>
 <hr>
-<p>Then in AdminRoute.ts we created routes</p>
+<h4>Then in AdminRoute.ts we created routes</h4>
 <ul>
 <li>router.post('/vandor',CreateVandor)</li>
 <li>router.post('/vandors',GetVandor )</li>
