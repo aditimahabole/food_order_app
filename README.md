@@ -59,8 +59,11 @@
 <li>npm i bcrypt</li>
 <li>npm i --save-dev @types/bcrypt</li>
 <h3>Removing password and salt and createdAt and such things while sending as JSON</h3>
-<img width="843" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/39e05706-1dd1-4eb8-87dd-8e6fcf913e0d">
+<img width="843" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/39e05706-1dd1-4eb8-87dd-8e6fcf913e0d"><br>
+<h6>JSON MESSAGE</h6>
 <img width="342" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/7b07d145-c514-42c3-af97-ea1a6b35bb38">
+<br>
+<h6>MONGO DB </h6>
 <img width="566" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/3b7bf82b-986e-4846-84b4-f02dc580e562">
 
 <hr>
