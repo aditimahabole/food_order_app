@@ -69,7 +69,7 @@
 <hr>
 <p>As you can see now we are not able to see the password in JSON format which is good for security purpose , but in database they all are stored , so hacker will not be able to acess password or salt from json response as we have removed it .</p>
 <p>20 dec 23</p>
-<p>sucessfully created model and applied only one user entry , hased password using bcrypt and salt , and removed password and salt field from JSON message </p>
+<li>sucessfully created model and applied only one user entry , hased password using bcrypt and salt , and removed password and salt field from JSON message </li>
 <hr>
 
 
