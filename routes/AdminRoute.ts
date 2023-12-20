@@ -8,6 +8,7 @@ router.post('/vandors',GetVandor )
 router.post('/vandor/:id',GetVandorbyID)
 
 router.get('/',( req : Request , res : Response, next : NextFunction)=>{
+    console.log("--Inside AdminRoute.js--")
     res.json({
         message:"Inside AdminROute"
     })
