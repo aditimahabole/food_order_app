@@ -2,7 +2,19 @@ import { Request, Response, NextFunction } from "express";
 import { CreateVandorInput } from "../dto";
 import { Vandor } from "../models";
 import { generate_password, generate_salt } from "../utility";
-
+//-------------------------------------------------------------------------------------
+// for reducing code repetition
+const FindVandor = async (id: string | undefined, email?: string) => {
+  console.log('Finding Vandor');
+  if (email) {
+    const vandor = await Vandor.findOne({ email: email });
+    return vandor;
+  } else {
+    const vandor = await Vandor.findById(id);
+    return vandor;
+  }
+};
+//-------------------------------------------------------------------------------------
 export const CreateVandor = async (
   req: Request,
   res: Response,
@@ -26,7 +38,7 @@ export const CreateVandor = async (
   console.log("______________________________");
 
   // checking if vandor already exists using email
-  const existingVandor = await Vandor.findOne({ email: email });
+  const existingVandor =await FindVandor('',email);
 
   if (existingVandor !== null) {
     return res.json({
@@ -35,8 +47,10 @@ export const CreateVandor = async (
   }
   // generating a salt
   const salt = await generate_salt();
-  const vandorPassword = await generate_password(password,salt);
   // then encrypt the password
+  const vandorPassword = await generate_password(password, salt);
+
+
 
   const createdVandor = await Vandor.create({
     name: name,
@@ -59,9 +73,22 @@ export const GetVandor = async (
   req: Request,
   res: Response,
   next: NextFunction
-) => {};
+) => {
+  console.log("--Inside GetVandor--");
+  const vandors = await Vandor.find();
+  if (vandors !== null) return res.json(vandors);
+  return res.json({ message: "Vandors not available" });
+};
 export const GetVandorbyID = async (
   req: Request,
   res: Response,
   next: NextFunction
-) => {};
+) => {
+  console.log("--Inside GetVandorById--");
+  const vandorId = req.params.id;
+  const vandor = await FindVandor(vandorId);
+  if (vandor !== null) {
+    return res.json(vandor);
+  }
+  return res.json({ message: "Vandor does not exist" });
+};

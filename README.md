@@ -71,7 +71,5 @@
 <p>20 dec 23</p>
 <li>sucessfully created model and applied only one user entry , hased password using bcrypt and salt , and removed password and salt field from JSON message </li>
 <hr>
-
-
-
-
+<h1?>PART 2</h1>
+<p>Storing helper classes in utility folder if data is not available or incorrect</p>
