@@ -4,7 +4,7 @@ import { Vandor } from "../models";
 import { generate_password, generate_salt } from "../utility";
 //-------------------------------------------------------------------------------------
 // for reducing code repetition
-const FindVandor = async (id: string | undefined, email?: string) => {
+export const FindVandor = async (id: string | undefined, email?: string) => {
   console.log('Finding Vandor');
   if (email) {
     const vandor = await Vandor.findOne({ email: email });
