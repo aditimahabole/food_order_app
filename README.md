@@ -79,5 +79,28 @@
 <img width="670" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/1d25bec8-7131-496a-af5b-807a2eafc72d">
 <img width="670" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/0ec7feda-9fa9-47df-a5ff-a382b911d652">
 <img width="670" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/5ba2da67-4803-4afd-bd96-abbb518b6d2e">
+<h3>Use of JWT in utility/Password.ts</h3>
+<p>The signature verification process involves the use of a secret key that only the server knows.
+The key is used to sign the JWT when it is created and to verify the signature when the JWT is presented to the server.
+The signature is a cryptographic hash generated using this secret key and the content of the JWT (header and payload).</p>
+<hr>
+<img width="731" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/5fb39a49-a6d4-479f-9792-c3670c09dc98">
+<hr>
+<li>Token Generated</li>
+<hr>
+<li>Verifying signature</li>
+<li>Made Auth.dto.ts</li>
+<img width="499" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/2375f013-1870-4856-b857-5bad077487e1">
+
+<p>In payload variable we are able to acess id , name , email , foodTypes </p>
+<hr>
+<img width="633" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/8b2c5187-280f-465c-a282-833a2af4fdc1">
+<hr>
+<li>Middleware CommonAuth</li>
+<img width="952" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/cda0ffdf-2fdd-4d73-b307-f24b0188cc3c">
+
+
+
+
 
 
