@@ -101,7 +101,7 @@ The signature is a cryptographic hash generated using this secret key and the co
 <h3>Checking if Signature is Validated or Not</h3>
 <li>First Login using Email and Password</li>
 <hr>
-<img width="926" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/cfd5c6f1-b357-467f-8233-8ca670de438a">
+<img width="869" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/9c94903c-36da-428c-a399-f7f372ac88b3">
 <hr>
 <li>Copy the Token generated below </li>
 <hr>
