@@ -98,6 +98,40 @@ The signature is a cryptographic hash generated using this secret key and the co
 <hr>
 <li>Middleware CommonAuth</li>
 <img width="952" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/cda0ffdf-2fdd-4d73-b307-f24b0188cc3c">
+<h3>Checking if Signature is Validated or Not</h3>
+<li>First Login using Email and Password</li>
+<hr>
+<img width="926" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/cfd5c6f1-b357-467f-8233-8ca670de438a">
+<hr>
+<li>Copy the Token generated below </li>
+<hr>
+<img width="647" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/4869fcf4-9c07-48ff-84a5-220d386043d0">
+<hr>
+<li>Go to Folders three dot and click Edit</li>
+<hr>
+<img width="248" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/c95bff50-6681-48e4-bbdb-b5b831fc49a0">
+<hr>
+<li>Go to Authorization tab</li>
+<hr>
+<img width="345" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/7807106a-31f6-42c2-84e6-c43d0f6cbbb6">
+<hr>
+<li>Select Type as Bearer Token and paste the copied token below it</li>
+<li>This will help to make that user validated and under this folder every request can access this token to verify</li>
+<li>Now Click on Save button</li>
+<hr>
+<img width="631" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/3aae1a26-a8a6-4812-a04b-7a6904e13643">
+<hr>
+<li>In vandor profile set option of Authorization as bearer Token</li>
+<li>Now go to Vandor Profile Request and clear the body as its a Get request and if the user is authenticated it will show us user details</li>
+<li>If not validated We will see json message as:{"message":"User not authorized (Authenticate)"}</li>
+<hr>
+<img width="866" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/e64f1bfa-182f-46a1-ab59-253d546c47b9">
+<hr>
+
+
+
+
+
 
 
 
