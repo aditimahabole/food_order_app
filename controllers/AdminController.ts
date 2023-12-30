@@ -45,7 +45,7 @@ export const CreateVandor = async (
       message: "Vandor already exists",
     });
   }
-  // generating a salt
+  // generating a salt utility/PasswordUtility.js
   const salt = await generate_salt();
   // then encrypt the password
   const vandorPassword = await generate_password(password, salt);
