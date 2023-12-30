@@ -63,7 +63,7 @@ export const CreateVandor = async (
     password: vandorPassword,
     owner_name: owner_name,
     rating: 0,
-    seriveAvailable: false,
+    serviceAvailable: false,
     coverImages: [],
   });
 
