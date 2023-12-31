@@ -127,7 +127,7 @@ The signature is a cryptographic hash generated using this secret key and the co
 <hr>
 <img width="866" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/e64f1bfa-182f-46a1-ab59-253d546c47b9">
 <hr>
-<h1>PART 2</h1>
+<h1>PART 3</h1>
 <h3>Adding food functionality</h3>
 <li>First Login > copy token > VANDOR folder > edit > choose Bearer Token , add token without " " > Click Save > and now do the below thing</li>
 <hr>
