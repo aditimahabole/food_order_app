@@ -134,6 +134,11 @@ The signature is a cryptographic hash generated using this secret key and the co
 <img width="787" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/c73fc2dd-7493-4210-82b1-b64e72369467">
 <img width="866" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/11477ad8-db24-4e24-9da9-a63869a79fc3">
 <hr>
+<h3>Adding Iamges using Multer Library</h3>
+<p>Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files</p>
+<img width="905" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/3efd2cde-8fba-45fc-ad04-f5c11699dcbe">
+
+
 
 
 
