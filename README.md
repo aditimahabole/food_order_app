@@ -1,5 +1,5 @@
 # food_order_app
-
+<h1>PART 1</h1>
 <hr>
 <p> git clone empty repo -> cd foldername -> npm init -> (package.json is made ) </p>
 <p> tsc --init (to have tsconfig file) </p>
@@ -71,7 +71,7 @@
 <p>20 dec 23</p>
 <li>sucessfully created model and applied only one user entry , hased password using bcrypt and salt , and removed password and salt field from JSON message </li>
 <hr>
-<h1?>PART 2</h1>
+<h1>PART 2</h1>
 <p>Storing helper classes in utility folder if data is not available or incorrect</p>
 <p>Completed getVandors , getvandorById</p>
 <h3>Working on Vandor route</h3>
@@ -127,6 +127,8 @@ The signature is a cryptographic hash generated using this secret key and the co
 <hr>
 <img width="866" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/e64f1bfa-182f-46a1-ab59-253d546c47b9">
 <hr>
+<h1>PART 2</h1>
+<h3>Adding food functionality</h3>
 
 
 

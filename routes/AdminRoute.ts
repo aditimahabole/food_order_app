@@ -7,6 +7,8 @@ router.post('/vandor',CreateVandor)
 router.get('/vandors',GetVandor )
 router.get('/vandor/:id',GetVandorbyID)
 
+
+
 router.get('/',( req : Request , res : Response, next : NextFunction)=>{
     console.log("--Inside AdminRoute.js--")
     res.json({

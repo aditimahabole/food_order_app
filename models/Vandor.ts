@@ -14,7 +14,7 @@ interface VandorDoc extends Document {
   serviceAvailable: boolean;
   coverImages: [string];
   rating: number;
-//   foods: any;
+  foods: any;
 }
 const VandorSchema = new Schema(
   {
@@ -30,12 +30,12 @@ const VandorSchema = new Schema(
     serviceAvailable: { type: Boolean},
     coverImages: { type: [String] },
     rating: { type: Number},
-    // foods: [
-    //   {
-    //     type: mongoose.Schema.ObjectId,
-    //     ref: "food",
-    //   },
-    // ],
+    foods: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: "food",
+      },
+    ],
     //   It's an array of objects, where each object is expected to be of type mongoose.Schema.ObjectId
     //  and is referring to the "food" model (specified by ref: "food")
     // using it after creating food model : 20 dec 10:37 pm
