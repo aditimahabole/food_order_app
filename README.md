@@ -137,6 +137,9 @@ The signature is a cryptographic hash generated using this secret key and the co
 <h3>Adding Iamges using Multer Library</h3>
 <p>Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files</p>
 <img width="905" alt="image" src="https://github.com/aditimahabole/food_order_app/assets/78752342/3efd2cde-8fba-45fc-ad04-f5c11699dcbe">
+# PART 4
+<h3>Adding Images to Database </h3>
+<li>npm i multer -> npm i @types/multer : it handles file upload functionality</li>
 
 
 
